@@ -40,9 +40,32 @@ header h1 {
     left: 4%;
 }
 
-.btn {
+.btn:link,
+.btn:visited {
     border: solid 2px orange;
     border-radius: 10px;
-    padding : 5px 25px;
-    
+    padding: 5px 25px;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: orange;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    background-color: rgb(251, 179, 46);
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    color: orange;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    background-color: orange;
+    color: white;
 }
