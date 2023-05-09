@@ -35,7 +35,12 @@ header nav {
 header .logo {
     width: 100px;
     margin-left: 40px;
-    
+    transform: border 0.8s;
+    border: solid 5px transparent;
+}
+
+header .logo:hover {
+    border: solid 5px red;
 }
 
 header .main-nav {
@@ -45,6 +50,13 @@ header .main-nav {
     margin-left: 30%;
     list-style: none;
     text-transform: uppercase;
+}
+
+header .main-nav li a:hover,
+header .main-nav li a:active {
+    padding-bottom: 4px;
+    border-bottom: solid 2px orange;
+    transition: border-botton 0.4s;
 }
 
 header h1 {
