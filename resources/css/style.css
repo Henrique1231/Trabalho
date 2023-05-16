@@ -103,3 +103,7 @@ header h1 {
     background-color: orange;
     color: white;
 }
+
+.section-features {
+    margin: 20px 10%;
+}
