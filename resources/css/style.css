@@ -159,6 +159,7 @@ header h1 {
 
 .section-photos .photos {
     width: 100%;
+    margin: 0;
 }
 
 .section-photos img {
