@@ -13,6 +13,10 @@ html {
     font-size: 20px;
 }
 
+h1 h2 h3 {
+    text-transform: uppercase;
+}
+
 header {
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(img/img-hero-header.jpg);
@@ -115,7 +119,13 @@ header h1 {
 
 .section-features h2 {
     margin-bottom: 20px;
+    text-transform: uppercase;
 }
+
+.section-features h3 {
+    text-transform: uppercase;
+}
+
 
 .section-features h2::after {
     content: " ";
@@ -130,4 +140,8 @@ header h1 {
 .section-features ion-icon {
     font-size: 40px;
     color: orange
+}
+
+.section-features long-copy {
+    line-height: 1.5rem;
 }
