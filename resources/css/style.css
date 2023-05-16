@@ -125,3 +125,8 @@ header h1 {
     margin: 0 auto;
     margin-top: 15px;
 }
+
+.section-features ion-icon {
+    font-size: 40px;
+    color: orange
+}
