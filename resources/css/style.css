@@ -145,3 +145,23 @@ header h1 {
 .section-features long-copy {
     line-height: 1.5rem;
 }
+
+.section-photos .image-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.section-photos .image-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.section-photos .photos {
+    width: 100%;
+}
+
+.section-photos img {
+    width: 100%;
+    height: auto;
+}
